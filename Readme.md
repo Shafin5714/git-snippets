@@ -117,3 +117,13 @@ git push origin branchName
 ```
 git clone repositorylink newfilename
 ```
+
+## Delete cached branch
+```
+git branch --delete auth
+```
+
+## Reset
+```
+git reset --hard 02bf3eb
+```
