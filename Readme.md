@@ -127,3 +127,9 @@ git branch --delete auth
 ```
 git reset --hard 02bf3eb
 ```
+
+
+## Remove the last commit from the current branch, but the file changes will stay in your working tree.
+```
+git reset --soft HEAD~1
+```
